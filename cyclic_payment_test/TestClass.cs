@@ -18,9 +18,6 @@ namespace SeleniumTests
         private bool acceptNextAlert = true;
         private int dom = 0, sep = 0, swi = 0, zus = 0, tax = 0, dd = 0;
         private DateTime ma = DateTime.Today;
-        /*private DateTime = GetTomorrow();
-        private DateTime datum = DateTime.Today.AddYears(10);
-        */
         private string[] datum = { "2017", "08", "30" }; // = 20200901;
 
         [SetUp]
